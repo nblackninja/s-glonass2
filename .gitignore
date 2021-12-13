@@ -10,13 +10,13 @@
 
 
 ### Other ###
+source/**/*
 .DS_Store
 .idea
 *.ai
 *.log
 node_modules/
 build/
-prod/
 npm-debug.*
 source/css/*.css
 Thumbs.db
