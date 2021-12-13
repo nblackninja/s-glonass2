@@ -1,0 +1,44 @@
+@mixin no-outline() {
+  outline: none;
+  background-color: transparent;
+
+  &::before {
+    display: none;
+  }
+}
+
+// МИКСИН ДЛЯ СОЗДАНИЯ CLEARFIX
+@mixin clearfix() {
+  &::after {
+    content: "";
+
+    display: table;
+    clear: both;
+  }
+}
+
+// АДАПТИВНЫЙ ЦЕНТРОВЩИК
+@mixin container() {
+  width: 320px;
+  margin: 0 auto;
+
+  @media (min-width: $tablet-width) {
+    width: 640px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 960px;
+  }
+}
+
+@mixin container-fluid() {
+  width: auto;
+
+  @media (min-width: $tablet-width) {
+    width: 81%;
+    /* 640px / 768px ~= 84% */
+    max-width: 1200px;
+    /* 960px / 0.84 ~= 1142px (центровка начнется чуть раньше 1200px*/
+    margin: 0 auto;
+  }
+}

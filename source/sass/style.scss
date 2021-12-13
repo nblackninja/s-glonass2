@@ -1,0 +1,20 @@
+// normalize.css - v8.0.1
+@import '_normalize';
+
+// переменные
+@import '_variables';
+
+// общие правила
+@import '_main-rules';
+
+// миксины()
+@import '_mixins';
+
+
+@import 'blocks/_head';
+
+@import 'blocks/_main';
+
+@import 'blocks/_form';
+
+@import 'blocks/_call';

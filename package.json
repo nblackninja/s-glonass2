@@ -1,0 +1,15 @@
+{
+  "name": "glonass2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp test",
+    "build": "gulp build",
+    "prod": "gulp prod",
+    "deploy": "gulp deploy",
+    "start": "gulp build && gulp prod && gulp deploy"
+  },
+  "author": "Nikita Yudin",
+  "license": "ISC"
+}

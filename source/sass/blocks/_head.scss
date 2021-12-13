@@ -1,0 +1,60 @@
+header {
+  background: rgba(77, 76, 75, 0.75);
+}
+
+.mainc {
+  display: block;
+}
+
+.logo p {
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 27px;
+  font-weight: 700;
+  text-shadow: 1px 1px 1px silver,
+    -1px 1px 1px silver;
+  height: auto;
+  line-height: 100px;
+}
+
+.num {
+  margin-top: 20px;
+}
+
+.num a {
+  color: white;
+  text-decoration: none;
+  transition: .5s;
+  -webkit-transition: .5s;
+  -moz-transition: .5s;
+  -ms-transition: .5s;
+  -o-transition: .5s;
+}
+
+.num a:hover {
+  color: red;
+}
+
+.tel {
+  font-size: 30px;
+  text-align: center;
+}
+
+.desk {
+  padding-top: 5px;
+  text-align: center;
+  font-size: 14px;
+}
+
+@media (min-width: $tablet-width) {
+  .mainc {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .logo p {
+    height: 100;
+  }
+}
+
+@media (min-width: $desktop-width) {}

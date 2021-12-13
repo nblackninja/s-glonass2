@@ -1,0 +1,169 @@
+.formain {
+  max-width: 460px;
+
+  background: rgba(231, 231, 231, 0.81);
+  border: 2px solid #FFFFFF;
+  backdrop-filter: blur(4px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 20px;
+
+  .prettl {
+    border-bottom: 2px solid #FFFFFF;
+
+    p {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 27px;
+      line-height: 32px;
+      display: block;
+      align-items: center;
+      text-align: center;
+
+      color: #414141;
+      margin: 10px;
+    }
+  }
+
+  .ttl {
+    .dsk {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 24px;
+      line-height: 28px;
+      display: block;
+      align-items: center;
+
+      color: #414141;
+      margin-top: 15px;
+      margin-left: 22px;
+      margin-bottom: 10px;
+    }
+  }
+
+  #contact {
+    input {
+      display: block;
+      margin: auto;
+      max-width: 421px;
+      height: 64px;
+
+
+      background: #C4C4C4;
+      border: 1px solid #000000;
+      box-sizing: border-box;
+      border-radius: 15px;
+    }
+
+    #send {
+      max-width: 421px;
+
+      display: block;
+      margin: auto;
+      background: #DB3636;
+      border: 5px solid #A50707;
+      box-sizing: border-box;
+      border-radius: 15px;
+
+      margin-top: 15px;
+
+      p {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 28px;
+        display: block;
+        align-items: center;
+
+        color: #EAEAEA;
+      }
+    }
+  }
+
+  .postform {
+    .call {
+      margin-top: 10px;
+      margin-bottom: 10px;
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 28px;
+      display: block;
+      align-items: center;
+      text-align: center;
+
+      color: #414141;
+    }
+
+    .tel {
+      margin-top: 10px;
+      margin-bottom: 10px;
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 26px;
+      line-height: 42px;
+      display: block;
+      align-items: flex-end;
+      text-align: center;
+
+      color: #414141;
+    }
+
+
+    .mail {
+      width: max-content;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 26px;
+      line-height: 42px;
+      display: block;
+      align-items: flex-end;
+      text-align: center;
+
+      color: #414141;
+    }
+
+    .sale {
+      margin-top: 25px;
+      margin-left: 22px;
+      margin-bottom: 10px;
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 19px;
+      /* identical to box height */
+
+      display: block;
+      align-items: center;
+
+      color: #414141;
+
+    }
+  }
+}
+
+
+@media (max-width: $tablet-width) {
+  .info__timer {
+    display: none;
+  }
+}
+
+@media (min-width: $tablet-width) {}
+
+@media (min-width: $desktop-width) {
+  .formain #contact input {
+    width: 400px;
+  }
+}

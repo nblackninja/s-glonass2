@@ -1,0 +1,53 @@
+body {
+  min-width: 320px;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+
+  font-size: 18px;
+  line-height: 27px;
+  font-family: Tahoma, sans-serif;
+  color: $text-color;
+  font-style: normal;
+
+  background-image: url(/2/img/bg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.container {
+  max-width: 1274px;
+  margin: auto;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+  height: auto;
+}
+
+.visually-hidden:not(:focus):not(:active) {
+  position: absolute;
+
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+*::selection {
+  color: rgb(59, 59, 59);
+  text-shadow: 1px 1px 1px silver,
+    -1px 1px 1px silver;
+  text-shadow: 1px 1px 1px silver,
+    -1px 1px 1px silver;
+  background: transparent;
+}

@@ -1,0 +1,56 @@
+main {
+  display: block;
+}
+
+.info {
+  padding: 20px;
+}
+
+.info__h1 {
+  max-width: 530px;
+
+  h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 56px;
+  }
+
+  b {
+    color: white;
+    text-shadow: orange 2px 2px 5px;
+  }
+}
+
+.info__timer {
+  text-align: center;
+}
+
+.info__advantages {
+  font-size: 22px;
+  margin-top: 50px;
+}
+
+.form {
+  padding: 20px;
+}
+
+.form__h2 {
+  max-width: 325px;
+  text-align: center;
+  margin: auto;
+  line-height: 35px;
+
+  b {
+    color: red;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  main {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media (min-width: $desktop-width) {}

@@ -1,0 +1,23 @@
+# Created by https://github.com/nblackninja
+
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/.eslintrc
+
+
+### Other ###
+.DS_Store
+.idea
+*.ai
+*.log
+node_modules/
+build/
+prod/
+npm-debug.*
+source/css/*.css
+Thumbs.db
+psd/*
